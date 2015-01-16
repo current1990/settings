@@ -6,6 +6,10 @@ call vundle#begin()
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'uarun/vim-protobuf'
+Plugin 'rizzatti/dash.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
@@ -22,10 +26,19 @@ set smartindent
 set showmatch
 set mouse=a
 
+"Tab Settings
 set tabstop=4
+set expandtab
 set shiftwidth=4
 
-nmap <F3>	:NERDTreeToggle<CR>
+"Color Settings
+set background=light
+colorscheme solarized
+
+"Enable airline
+set laststatus=2
+
+nmap <C-e>	:NERDTreeToggle<CR>
 nmap <F5>	:SyntasticChech<CR>
 nmap <C-x>	:qall<CR>
 
