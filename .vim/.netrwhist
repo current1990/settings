@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/current/.vim'
+let g:netrw_dirhist_2='/Users/current/Working/demos/pysuper.py'
+let g:netrw_dirhist_3='/Users/current/Working/slim/Slim-NPL-SDK/.git'
+let g:netrw_dirhist_4='/Users/current/.vim/bundle/nerdtree/autoload/nerdtree'
+let g:netrw_dirhist_5='/Users/current/playground/libCello/demos/functions.dSYM'
+let g:netrw_dirhist_6='/Users/current/.vim'
+let g:netrw_dirhist_7='/Users/current/Working/twisted-intro/tests'
+let g:netrw_dirhist_8='/Users/current/Working/twisted-intro/erlang-client-1'
+let g:netrw_dirhist_9='/Users/current/Working/Slim-ChatAgent/.git'
