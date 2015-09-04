@@ -10,6 +10,11 @@ Plugin 'uarun/vim-protobuf'
 Plugin 'rizzatti/dash.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
+Plugin 'solarnz/thrift.vim'
+Plugin 'jceb/vim-orgmode'
+Plugin 'klen/python-mode'
+Plugin 'davidhalter/jedi-vim'
+
 
 call vundle#end()
 filetype plugin indent on
@@ -33,10 +38,14 @@ set shiftwidth=4
 
 "Color Settings
 set background=light
-colorscheme solarized
+"colorscheme solarized
 
 "Enable airline
 set laststatus=2
+
+"pymode
+let g:pymode_folding=0
+let g:pymode_doc=0
 
 nmap <C-e>	:NERDTreeToggle<CR>
 nmap <F5>	:SyntasticChech<CR>
