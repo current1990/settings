@@ -51,6 +51,12 @@ nmap <C-e>	:NERDTreeToggle<CR>
 nmap <F5>	:SyntasticChech<CR>
 nmap <C-x>	:qall<CR>
 
+"Ingore Alphabet Case
+:command Q q
+:command W w
+:command WQ wq
+:command Wq wq
+
 "personal info
 map <F6>	:call AddTitle()<CR>
 map <F7>	:call UpdateTitle()<CR>
