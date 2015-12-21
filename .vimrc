@@ -14,6 +14,7 @@ Plugin 'solarnz/thrift.vim'
 Plugin 'jceb/vim-orgmode'
 Plugin 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'kien/ctrlp.vim'
 
 
 call vundle#end()
@@ -46,9 +47,12 @@ set laststatus=2
 "pymode
 let g:pymode_folding=0
 let g:pymode_doc=0
+let g:pymode_options_max_line_length = 120
+
+"CtrlP Ignorance
+set wildignore+=*/tmp/*,*.swp,*.pyc
 
 nmap <C-e>	:NERDTreeToggle<CR>
-nmap <F5>	:SyntasticChech<CR>
 nmap <C-x>	:qall<CR>
 
 "Ingore Alphabet Case

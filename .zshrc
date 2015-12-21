@@ -83,8 +83,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias la="ls -al"
 alias l="ls -CF"
-alias gcc="clang -std=c99 -Wall"
-alias g++="clang++ -std=c++11 -Wall"
+alias gcc="gcc -std=c99 -Wall"
+alias g++="g++ -std=c++11 -Wall"
 alias rm="rm -i"
 alias pvim="ps aux | grep vim"
 alias cls="clear"
